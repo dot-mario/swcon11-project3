@@ -104,6 +104,16 @@ def load_bmp(filename):
         return pixels, width, height
 ```
 
+
+-추가설명
+
+`struct.unpack('I', f.read(4))[0]` 에서 `I`, `B`, `H` 와 같은 포멧 문자를 사용합니다.
+
+- **`B`**: 부호 없는 바이트(Byte). 1바이트 크기의 자료형으로, 0에서 255까지의 값을 나타낼 수 있습니다.
+- **`H`**: 부호 없는 짧은 정수(Unsigned short). 2바이트 크기의 자료형으로, 0에서 65535까지의 값을 나타낼 수 있습니다.
+- **`I`**: 부호 없는 정수(Unsigned int). 4바이트 크기의 자료형으로, 0에서 4294967295까지의 값을 나타낼 수 있습니다.
+- **`'BBB'`:** 연속된 세 개의 바이트를 개별적으로 읽을 수 있습니다.
+
 ### pygame을 통해 나타내기
 
 ![image](https://github.com/dot-mario/swcon11-project3/assets/74451418/2e8f3c02-446f-464d-aacf-6e2220deed83)
