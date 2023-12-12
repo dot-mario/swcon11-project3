@@ -31,6 +31,7 @@ https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/#jpeg-d
 BMP 파일 포멧의 정보는 여기서 확인 할 수 있었습니다.
 
 [https://ko.wikipedia.org/wiki/BMP_파일_포맷](https://ko.wikipedia.org/wiki/BMP_%ED%8C%8C%EC%9D%BC_%ED%8F%AC%EB%A7%B7)
+
 https://en.wikipedia.org/wiki/BMP_file_format
 
 | BMP 헤더 | BMP 파일에 대한 일반 정보를 담고 있다. |
@@ -198,11 +199,13 @@ display_image(pixels, width, height)
 
 예시 파일인 chair.bmp 파일을 불러온 결과입니다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/537b3645-4893-498e-b757-8b701ae51498/d146a277-df2e-4217-9090-e7004a6763d9/Untitled.png)
+![image](https://github.com/dot-mario/swcon11-project3/assets/74451418/b29bf9a0-ea56-409d-b82c-069d37c5dfad)
+
 
 윈도우 기본 프로그램을 이용해 불러온 동일한 사진입니다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/537b3645-4893-498e-b757-8b701ae51498/f01fa81e-b4bf-4b1a-ade3-d77567def3d1/Untitled.png)
+![image](https://github.com/dot-mario/swcon11-project3/assets/74451418/8f208a9c-81a2-4be5-a65a-18827c43aef7)
+
 
 ---
 
