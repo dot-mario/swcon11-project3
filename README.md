@@ -105,7 +105,8 @@ def load_bmp(filename):
 
 ### pygame을 통해 나타내기
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/537b3645-4893-498e-b757-8b701ae51498/cfeddfa5-980b-4fe9-a6bb-3fd51c0d284c/Untitled.png)
+![image](https://github.com/dot-mario/swcon11-project3/assets/74451418/2e8f3c02-446f-464d-aacf-6e2220deed83)
+
 
 비트맵의 픽셀 데이터는 pygame의 좌표계와 달리 첫번째 픽셀이 좌측 하단에 존재하여 열이 위로 올라가는 형식이기 때문에 불러온 픽셀 데이터를 pygame으로 나타내기 위해서는 y좌표를 반전시켜야 합니다.
 
